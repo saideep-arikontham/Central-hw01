@@ -24,6 +24,6 @@ There are three python files in the src folder. The "readit.py" file has a funct
 
 - For variance of single estimate mean, I have taken arrays of fixed samples but different number of features (=10, =100, =1000). In each case after calculating the variance of each sample, we will have 1000 variance values as an array. But as the number of features increases, the mean of the variance is closer to the variance of the [0,1) i.e., 1/12.
 - The standard error, which is variance/n would then be 0.00008333 for the entire 2d array data when rows=1000 and features=1000. The line plot indicating the change of average of variance when features=10, features=100 and features=1000 is represented in the following image:
-<img src="figs/variance.png">
+<img src="figs/std_err.png">
 
 
