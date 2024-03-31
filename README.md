@@ -12,10 +12,7 @@ There are three python files in the src folder. The "readit.py" file has a funct
 
 ##### estimate_mean_graphs.py:
 
-- An array of size (1000,50) (n=1000 rows) is taken and mean is calculated for each of the records for each array. Therefore we have a result of 1000 means where each is an estimate mean. This array of 1000 estimate means will be in a normal distribution. And when you average these 1000 values, you get a value which is closer to the actual mean 0.5. The resultant probability density is represented in the following image:
-
-<img src="figs/n_means_density_plot.png">
-
+- An array of size (1000,50) (n=1000 rows) is taken and mean is calculated for each of the records for each array. Therefore we have a result of 1000 means where each is an estimate mean. This array of 1000 estimate means will be in a normal distribution. And when you average these 1000 values, you get a value which is closer to the actual mean 0.5.
 
 - I have also taken n=10 and n=100 as well but when plotted, the distribution is not a normal distribution. The average of n estimate means is not closer to the actual mean when compared with the average mean on n=1000 records.
 
